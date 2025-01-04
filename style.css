@@ -80,14 +80,13 @@ select {
 
 .frameworks-list {
     list-style-image:url("./assets/images/solar_map-arrow-up-bold.svg") ;
-    padding-left: 20px;
+    padding: 0px 20px;
     margin-left: 5px;
 }
 /* Стили для маркированного списка во второй секции */
 
 .books-list {
-    list-style-position: inside;
-    margin-left: 5px;
+    padding: 0px 20px;
 /* Стили для нумерованного списка во второй секции */
 }
 
@@ -106,7 +105,7 @@ select {
     top: 1525px;
     border-radius: 5px;
     padding: 9px 0px 8px 12px;
-    font-size: 16px;
+    font-size: 14px;
     ;/* Стили для односточного поля ввода текста */
 }
 
@@ -143,17 +142,18 @@ table {
 
 th, td {
     border: 1px solid #95A1BB;
-    padding: 12px 14px 11px 14px;
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background: #A3A7FF4D;
-    padding: 26px 0 27px 1px;
+    padding: 26px 0px;
     /* Стили для футера */
 }
 
 .footer-link {
     color: #2965F1;
+    font-size: 14px;
     /* Стили для футера */
 }
